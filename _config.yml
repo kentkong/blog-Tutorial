@@ -1,0 +1,6 @@
+markdown: redcarpet
+highlighter: pygments
+title: "Hello My name Is Mr Big Business"
+tagline: "Do not be alarmed, it's only Kenny"
+paginate: 5
+#baseurl: 

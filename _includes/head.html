@@ -1,0 +1,15 @@
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title>
+{% if page.title == "Home" %}
+    {{ site.title }} &middot; {{ site.tagline }}
+{% else %}
+    {{ page.title }} &middot; {{ site.title }}
+{% endif %}
+</title>
+<link rel="shortcut icon" href="">
+<link rel="apple-touch-icon" href="">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="atom.xml">
+
+</head>
